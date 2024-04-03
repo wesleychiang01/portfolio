@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a electonic engineering student studying at Universiti Teknologi Malaysia. I have great passionate electronic and computer engineering field.";
+  "I'm an electonic engineering student studying at Universiti Teknologi Malaysia. I have great passionate in electronic and computer engineering field.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
