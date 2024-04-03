@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "High Accuracy CORDIC Algorithm in FPGA Implementation",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Final Year Project (In Progress). Implement pipelined Coordinate Rotation Digital Computer (CORDIC) algorithm on FPGA by utilizing Verilog HDL to achieve computation of sine and cosine values with low relative error.",
+    url: "#",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Solar-Based Power Bank with Fast Charging Monitoring",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Capstone Project. Involved in microcontroller programming to transmit data to Azure IOT Hub using Raspberry Pi Pico and set up a data pipeline to connect Azure MySQL Database.",
+    url: "https://github.com/wesleychiang01/dotnet-starter",
   },
   {
-    title: "My Resume Site",
+    title: "Intellirent – Property Management Software",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Led a team of 5 developers in the successful development of a property management system. Developed the back-end system for the web application using Laravel framework.",
+    url: "https://intellirent.site/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Classification Model for Well Slugging",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Build and determine the highest performance learning model to predict oil well slugging condition from pre-processed well datasets.",
+    url: "https://github.com/wesleychiang01/Classification-Model-for-Well-Slugging",
   },
 ];
 
@@ -64,7 +64,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideInLeft",
+            }}
             alt={imageAltText}
           />
         </div>
